@@ -5,6 +5,9 @@ export default function RootLayout({ children }) {
         <title>Road to Next.js</title>
       </head>
       <body>
+        <h1>
+          Layout Header
+        </h1>
         {children}
       </body>
     </html>
